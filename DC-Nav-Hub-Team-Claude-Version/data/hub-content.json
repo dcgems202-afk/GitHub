@@ -1,0 +1,1049 @@
+{
+  "project": "DC Home & Rental Navigation Hub",
+  "note": "Every URL here must match docs/transfer-log.md exactly. lastReviewed stays null until the owner click-tests. rentalSteps_PROPOSED is new content awaiting owner approval.",
+  "resources": {
+    "dchousingsearch": {
+      "name": "DCHousingSearch.org",
+      "org": "DCHousingSearch.org",
+      "badge": "Official government-supported website",
+      "url": "https://dchousingsearch.org/",
+      "desc": "Search DC rental and for-sale housing, including affordable and accessibility-related filters.",
+      "button": "Search DC housing listings",
+      "note": "Listings, rents, accessibility features, and availability must be confirmed directly with the property.",
+      "id": "dchousingsearch",
+      "lastReviewed": null
+    },
+    "dhcdCounseling": {
+      "name": "Housing Counseling Services",
+      "org": "DC Department of Housing and Community Development (DHCD)",
+      "badge": "Official government website",
+      "url": "https://dhcd.dc.gov/service/housing-counseling-services",
+      "desc": "Learn about DHCD-supported housing counseling for tenants, prospective and current homeowners, and people facing housing challenges.",
+      "button": "Review housing counseling services",
+      "note": "Services, intake, eligibility, and appointment availability vary.",
+      "id": "dhcdCounseling",
+      "lastReviewed": null
+    },
+    "hud": {
+      "name": "Find a HUD-approved housing counselor",
+      "org": "U.S. Department of Housing and Urban Development (HUD)",
+      "badge": "Official government website",
+      "url": "https://www.hud.gov/findacounselor",
+      "desc": "Search for HUD-approved housing counseling agencies and compare the services they provide.",
+      "button": "Search HUD-approved counselors",
+      "id": "hud",
+      "lastReviewed": null
+    },
+    "hraPet": {
+      "name": "Pet-friendly housing guidance",
+      "org": "Humane Rescue Alliance",
+      "badge": "Official nonprofit website",
+      "url": "https://www.humanerescuealliance.org/pet-friendly-housing",
+      "desc": "Tips and resources for renters searching for housing with pets.",
+      "button": "Review pet-friendly housing guidance",
+      "id": "hraPet",
+      "lastReviewed": null
+    },
+    "hraAnimal": {
+      "name": "Housing rights for people with pets and assistance animals",
+      "org": "Humane Rescue Alliance",
+      "badge": "Official nonprofit website",
+      "url": "https://www.humanerescuealliance.org/housing-resources",
+      "desc": "General housing resources related to pets and assistance animals.",
+      "button": "Review animal-related housing resources",
+      "id": "hraAnimal",
+      "lastReviewed": null
+    },
+    "disbRenters": {
+      "name": "Renters insurance information",
+      "org": "DC Department of Insurance, Securities and Banking (DISB)",
+      "badge": "Official government website",
+      "url": "https://disb.dc.gov/page/what-you-need-know-about-renters-insurance",
+      "desc": "Understand common renters-insurance coverage, exclusions, deductibles, and questions to ask before buying a policy.",
+      "button": "Review DC renters-insurance guidance",
+      "id": "disbRenters",
+      "lastReviewed": null
+    },
+    "dhcdHomeownership": {
+      "name": "DC homeownership programs",
+      "org": "DHCD",
+      "badge": "Official government website",
+      "url": "https://dhcd.dc.gov/service/homeownership",
+      "desc": "Start with the District’s overview of homeownership programs and requirements.",
+      "button": "Explore DC homeownership programs",
+      "id": "dhcdHomeownership",
+      "lastReviewed": null
+    },
+    "dhcdCbos": {
+      "name": "Homeownership community-based organizations",
+      "org": "DHCD",
+      "badge": "Official government website",
+      "url": "https://dhcd.dc.gov/page/homeownership-cbos",
+      "desc": "Find participating community-based organizations that provide homebuyer education, counseling, and program-related support.",
+      "button": "Find a participating homeownership CBO",
+      "next": "Open the directory, choose a participating organization, and follow that organization’s official instructions for orientation, intake, or counseling.",
+      "note": "Requirements and appointments vary.",
+      "id": "dhcdCbos",
+      "lastReviewed": null
+    },
+    "hpap": {
+      "name": "Home Purchase Assistance Program (HPAP)",
+      "org": "DHCD",
+      "badge": "Official government website",
+      "url": "https://dhcd.dc.gov/page/hpap-eligibility-how-apply-and-program-details",
+      "desc": "Review current HPAP eligibility, application steps, and program details for eligible DC homebuyers.",
+      "button": "Review HPAP eligibility and steps",
+      "id": "hpap",
+      "lastReviewed": null
+    },
+    "eahp": {
+      "name": "Employer-Assisted Housing Program (EAHP)",
+      "org": "DHCD",
+      "badge": "Official government website",
+      "url": "https://dhcd.dc.gov/eahp",
+      "desc": "Review home-purchase assistance information for eligible District government employees.",
+      "button": "Review EAHP details",
+      "id": "eahp",
+      "lastReviewed": null
+    },
+    "openDoors": {
+      "name": "DC Open Doors",
+      "org": "DC Housing Finance Agency (DCHFA)",
+      "badge": "Official government website",
+      "url": "https://dchfa.org/lenders/dc-open-doors/",
+      "desc": "Learn about participating-lender mortgage and down-payment-assistance options.",
+      "button": "Explore DC Open Doors",
+      "note": "A program or lender review does not guarantee mortgage approval.",
+      "id": "openDoors",
+      "lastReviewed": null
+    },
+    "dc4me": {
+      "name": "DC4ME",
+      "org": "DC Housing Finance Agency",
+      "badge": "Official government website",
+      "url": "https://dchfa.org/homeownership/dc4me/",
+      "desc": "Review the DC4ME mortgage program for eligible DC government employees.",
+      "button": "Review DC4ME program details",
+      "id": "dc4me",
+      "lastReviewed": null
+    },
+    "lenders": {
+      "name": "Find a participating lender",
+      "org": "DC Housing Finance Agency",
+      "badge": "Official government website",
+      "url": "https://dchfa.org/homeownership/find-a-lender/",
+      "desc": "Find lenders participating in DCHFA homeownership programs.",
+      "button": "Find a participating lender",
+      "note": "Users should compare loan terms, fees, and services; inclusion does not equal an endorsement by this hub.",
+      "id": "lenders",
+      "lastReviewed": null
+    },
+    "rehabCbos": {
+      "name": "Home rehabilitation community-based organizations",
+      "org": "DHCD",
+      "badge": "Official government website",
+      "url": "https://dhcd.dc.gov/page/home-rehabilitation-cbos",
+      "desc": "Find participating organizations that help eligible homeowners navigate home-rehabilitation programs.",
+      "button": "Find a home-rehabilitation CBO",
+      "id": "rehabCbos",
+      "lastReviewed": null
+    },
+    "foreclosure": {
+      "name": "Foreclosure-prevention resources",
+      "org": "DHCD",
+      "badge": "Official government website",
+      "url": "https://dhcd.dc.gov/service/foreclosure-prevention-resources",
+      "desc": "Find official starting points for homeowners concerned about missing payments or foreclosure.",
+      "button": "Review foreclosure-prevention resources",
+      "id": "foreclosure",
+      "lastReviewed": null
+    },
+    "propertyTax": {
+      "name": "Property-tax relief, credits, and deductions",
+      "org": "DC Office of Tax and Revenue",
+      "badge": "Official government website",
+      "url": "https://otr.cfo.dc.gov/page/real-property-tax-reliefs-credits-and-deductions",
+      "desc": "Review current property-tax relief options and application information.",
+      "button": "Review DC property-tax relief",
+      "id": "propertyTax",
+      "lastReviewed": null
+    },
+    "disbInsurance": {
+      "name": "Homeowners and renters insurance guidance",
+      "org": "DC Department of Insurance, Securities and Banking",
+      "badge": "Official government website",
+      "url": "https://disb.dc.gov/page/insurance-tips-homeowners-and-renters",
+      "desc": "Learn what to compare when shopping for homeowners or renters insurance.",
+      "button": "Review DC insurance guidance",
+      "id": "disbInsurance",
+      "lastReviewed": null
+    },
+    "ota": {
+      "name": "Office of the Tenant Advocate",
+      "org": "DC Office of the Tenant Advocate",
+      "badge": "Official government website",
+      "url": "https://ota.dc.gov/",
+      "desc": "Start with the District office focused on tenant rights, education, and advocacy.",
+      "button": "Open the Tenant Advocate website",
+      "id": "ota",
+      "lastReviewed": null
+    },
+    "dobTenant": {
+      "name": "Tenant resources",
+      "org": "DC Department of Buildings (DOB)",
+      "badge": "Official government website",
+      "url": "https://dob.dc.gov/page/tenant-resources",
+      "desc": "Review official information about rental-housing conditions and tenant-related building resources.",
+      "button": "Review DOB tenant resources",
+      "id": "dobTenant",
+      "lastReviewed": null
+    },
+    "housingCode": {
+      "name": "DC housing-code standards",
+      "org": "DC Department of Buildings",
+      "badge": "Official government website",
+      "url": "https://dob.dc.gov/service/dc-housing-code-standards",
+      "desc": "Learn about District housing-code standards before reporting a condition.",
+      "button": "Review DC housing-code standards",
+      "id": "housingCode",
+      "lastReviewed": null
+    },
+    "inspection": {
+      "name": "Request a housing-code inspection",
+      "org": "DC Department of Buildings",
+      "badge": "Official government website",
+      "url": "https://dob.dc.gov/service/housing-code-inspections-0",
+      "desc": "Review the official process for requesting an inspection of suspected housing-code violations.",
+      "button": "Review housing-inspection steps",
+      "id": "inspection",
+      "lastReviewed": null
+    },
+    "vacant": {
+      "name": "Vacant and blighted properties dashboard",
+      "org": "DC Department of Buildings",
+      "badge": "Official government website",
+      "url": "https://dataviz1.dc.gov/t/OCTO/views/DOBPublicDashboard/VacantProperties?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3Aembed=yes&%3Atoolbar=no",
+      "desc": "View the District’s public dashboard for vacant and blighted property information.",
+      "button": "Open the vacant-property dashboard",
+      "note": "This is not a sale, rental, or acquisition listing. Confirm property status through official records and do not enter private property.",
+      "id": "vacant",
+      "lastReviewed": null
+    },
+    "erap": {
+      "name": "Emergency Rental Assistance Program (ERAP) status",
+      "org": "DC Department of Human Services (DHS)",
+      "badge": "Official government website",
+      "url": "https://erap.dhs.dc.gov/",
+      "desc": "Check the official ERAP portal for current status, eligibility information, and available next steps.",
+      "button": "Check current ERAP status",
+      "note": "Appointment availability can pause or change.",
+      "id": "erap",
+      "lastReviewed": null
+    },
+    "rentalAssist": {
+      "name": "DC rental-assistance overview",
+      "org": "District of Columbia",
+      "badge": "Official government website",
+      "url": "https://dc.gov/page/rental-assistance",
+      "desc": "Compare official rental-assistance starting points and current program information.",
+      "button": "Review DC rental-assistance options",
+      "id": "rentalAssist",
+      "lastReviewed": null
+    },
+    "dcbar": {
+      "name": "Housing legal assistance",
+      "org": "DC Bar Pro Bono Center",
+      "badge": "Official nonprofit website",
+      "url": "https://www.dcbar.org/pro-bono/free-legal-help/help-for-individuals/housing-legal-assistance",
+      "desc": "Review legal-help options for DC housing disputes and court-related housing problems.",
+      "button": "Review DC Bar housing legal help",
+      "id": "dcbar",
+      "lastReviewed": null
+    },
+    "legalAid": {
+      "name": "Housing law help",
+      "org": "Legal Aid DC",
+      "badge": "Official nonprofit website",
+      "url": "https://www.legalaiddc.org/practice-areas/housing-law",
+      "desc": "Learn about nonprofit legal assistance for eligible DC tenants facing housing problems.",
+      "button": "Review Legal Aid DC housing help",
+      "note": "Eligibility and service availability vary.",
+      "id": "legalAid",
+      "lastReviewed": null
+    },
+    "nlsp": {
+      "name": "Housing law services",
+      "org": "Neighborhood Legal Services Program (NLSP)",
+      "badge": "Official nonprofit website",
+      "url": "https://www.nlsp.org/services/housing-law",
+      "desc": "Review housing-law assistance for eligible DC residents.",
+      "button": "Review NLSP housing-law services",
+      "note": "Eligibility and service availability vary.",
+      "id": "nlsp",
+      "lastReviewed": null
+    },
+    "oag": {
+      "name": "DC tenant resources",
+      "org": "Office of the Attorney General for the District of Columbia (OAG)",
+      "badge": "Official government website",
+      "url": "https://oag.dc.gov/tenant-resources/resources-tenants",
+      "desc": "Read official tenant-rights information and find appropriate complaint or legal-help pathways.",
+      "button": "Review OAG tenant resources",
+      "id": "oag",
+      "lastReviewed": null
+    },
+    "daclCase": {
+      "name": "Case management for older adults and adults with disabilities",
+      "org": "DC Department of Aging and Community Living (DACL)",
+      "badge": "Official government website",
+      "url": "https://dacl.dc.gov/service/case-management",
+      "desc": "Learn about eligibility-based case management, referrals, applications, and follow-up support.",
+      "button": "Review DACL case-management services",
+      "id": "daclCase",
+      "lastReviewed": null
+    },
+    "dccil": {
+      "name": "Independent-living services and advocacy",
+      "org": "DC Center for Independent Living",
+      "badge": "Official nonprofit website",
+      "url": "https://dccil.org/our-services/",
+      "desc": "Explore independent-living advocacy, skills, information, and referrals for people with disabilities.",
+      "button": "Explore DC Center for Independent Living services",
+      "id": "dccil",
+      "lastReviewed": null
+    },
+    "ddsBlind": {
+      "name": "Services for people who are blind or have low vision",
+      "org": "DC Department on Disability Services (DDS)",
+      "badge": "Official government website",
+      "url": "https://dds.dc.gov/service/services-people-blindness-and-visual-impairments",
+      "desc": "Review disability-services information for DC residents who are blind or have visual impairments.",
+      "button": "Review blindness and visual-impairment services",
+      "id": "ddsBlind",
+      "lastReviewed": null
+    },
+    "veterans": {
+      "name": "Mayor’s Office of Veterans Affairs",
+      "org": "Mayor’s Office of Veterans Affairs",
+      "badge": "Official government website",
+      "url": "https://communityaffairs.dc.gov/office-name/mayors-office-veterans-affairs",
+      "desc": "Find current District resources and navigation support for veterans and military families.",
+      "button": "Open the Veterans Affairs resource page",
+      "id": "veterans",
+      "lastReviewed": null
+    },
+    "dhsHousing": {
+      "name": "Housing programs for individuals",
+      "org": "DC Department of Human Services",
+      "badge": "Official government website",
+      "url": "https://dhs.dc.gov/page/housing-programs-individuals",
+      "desc": "Review official housing-program starting points for individuals experiencing or at risk of homelessness.",
+      "button": "Review DHS housing programs",
+      "urgent": true,
+      "id": "dhsHousing",
+      "lastReviewed": null
+    },
+    "dash": {
+      "name": "Safe housing and survivor support",
+      "org": "District Alliance for Safe Housing (DASH)",
+      "badge": "Official nonprofit website",
+      "url": "https://dashdc.org/how-we-can-help/programs/",
+      "desc": "Explore safe-housing programs and survivor-centered navigation for people affected by domestic or sexual violence.",
+      "button": "Review DASH housing programs",
+      "urgent": true,
+      "id": "dash",
+      "lastReviewed": null
+    },
+    "cameras": {
+      "name": "Private Security Camera Incentive Program",
+      "org": "DC Office of Victim Services and Justice Grants (OVSJG)",
+      "badge": "Official government website",
+      "url": "https://ovsjg.dc.gov/cameras",
+      "desc": "Review the District’s current security-camera rebate and voucher information.",
+      "button": "Review camera incentive options",
+      "note": "Eligibility, funding, and program availability can change; confirm on the official page.",
+      "id": "cameras",
+      "lastReviewed": null
+    },
+    "sfrrp": {
+      "name": "Single Family Residential Rehabilitation Program (SFRRP)",
+      "org": "DC Department of Housing and Community Development",
+      "badge": "Official government website",
+      "tags": [
+        "repair",
+        "access"
+      ],
+      "url": "https://dhcd.dc.gov/page/sfrrp-%E2%80%93-eligibility-and-how-apply",
+      "desc": "May fund roof repairs or accessibility changes for qualifying DC owner-occupants.",
+      "why": "Useful when a homeowner needs larger structural work, such as a ramp, accessible bathroom, stair lift, walkway, or roof repair.",
+      "prep": [
+        "Proof of ownership and primary residence",
+        "Household income, mortgage, tax, and insurance records",
+        "Physician documentation when accessibility work requires structural changes"
+      ],
+      "status": "A 20-year affordability covenant may apply. Do not start work or hire a contractor before approval.",
+      "next": "Review the eligibility rules, then begin through a current participating community organization.",
+      "button": "Check SFRRP eligibility",
+      "id": "sfrrp",
+      "lastReviewed": null
+    },
+    "ems": {
+      "name": "Emergency Mechanical Systems Program",
+      "org": "DC Department of Energy and Environment (DOEE)",
+      "badge": "Official government website",
+      "tags": [
+        "repair"
+      ],
+      "url": "https://doee.dc.gov/service/weatherization-assistance-program-wap",
+      "desc": "May repair or replace a failed heating system, central air conditioner, water heater, or chimney liner.",
+      "why": "A strong starting point when essential mechanical equipment has stopped working and the household meets program rules.",
+      "prep": [
+        "Government identification and household documents",
+        "Income or qualifying-benefit proof and utility bills",
+        "Ownership or rental, property, and insurance records"
+      ],
+      "status": "The EMS program is open and is contacting waitlisted applicants in first-come order. Funding and contractor capacity can change.",
+      "time": true,
+      "next": "Use the shared DOEE application before hiring or paying a contractor.",
+      "button": "Check emergency system help",
+      "id": "ems",
+      "lastReviewed": null
+    },
+    "wap": {
+      "name": "Weatherization Assistance Program",
+      "org": "DC Department of Energy and Environment",
+      "badge": "Official government website",
+      "tags": [
+        "repair",
+        "energy"
+      ],
+      "url": "https://doee.dc.gov/service/weatherization-assistance-program-wap",
+      "desc": "Uses a home energy audit to identify approved efficiency and related health-and-safety work.",
+      "why": "Possible work includes insulation, duct sealing, heating or cooling repairs, air-leak reduction, and other audit-recommended measures.",
+      "prep": [
+        "Photo ID and household Social Security documentation",
+        "Income, benefits, bank, and utility records",
+        "Mortgage or deed plus homeowner or renter insurance"
+      ],
+      "status": "FY2026 WAP openings are delayed. Waitlisted applicants will be contacted. It is not a remodeling or cosmetic-renovation program.",
+      "time": true,
+      "next": "Apply for an energy audit and let the audit determine what work may be covered.",
+      "button": "Check weatherization status",
+      "id": "wap",
+      "lastReviewed": null
+    },
+    "drafty": {
+      "name": "Drafty windows and insulation",
+      "org": "Weatherization education",
+      "badge": "Official government website",
+      "tags": [
+        "repair",
+        "energy"
+      ],
+      "url": "https://doee.dc.gov/service/weatherization-assistance-program-wap",
+      "desc": "There is no standing program that gives every DC homeowner free replacement windows.",
+      "why": "Weatherization may address drafts through insulation, air sealing, and approved repairs. Window or door work is possible only when the audit, rules, scope, and funding support it.",
+      "prep": [
+        "Notes or photos showing drafts, leaks, or damage",
+        "The regular Weatherization household documents",
+        "Access for the program’s home energy audit"
+      ],
+      "status": "New windows are not guaranteed. Do not hire a contractor based on an advertisement claiming automatic free DC windows.",
+      "next": "Request a Weatherization energy audit instead of applying for a “free window” giveaway.",
+      "button": "Request an energy assessment",
+      "id": "drafty",
+      "lastReviewed": null
+    },
+    "electrification": {
+      "name": "Affordable home electrification and residential rebates",
+      "org": "DOEE and DC Sustainable Energy Utility (DCSEU)",
+      "badge": "Official government website",
+      "tags": [
+        "energy"
+      ],
+      "url": "https://doee.dc.gov/service/electrification",
+      "desc": "Offers income-qualified electrification help and separate equipment rebates available at different income levels.",
+      "why": "May reduce the cost of heat pumps, water heating, cooking equipment, appliances, and other eligible electric upgrades.",
+      "prep": [
+        "DC address and utility information",
+        "Household income for income-qualified programs",
+        "Equipment details, contractor quote, or purchase proof as required"
+      ],
+      "status": "FY2026 rebates may change after September 30. Some programs approve work first; others reimburse after purchase.",
+      "time": true,
+      "next": "Check the current offer and approval order before buying equipment.",
+      "button": "Compare electrification incentives",
+      "id": "electrification",
+      "lastReviewed": null
+    },
+    "energyBill": {
+      "name": "Energy bill assistance",
+      "org": "DC Department of Energy and Environment",
+      "badge": "Official government website",
+      "tags": [
+        "energy"
+      ],
+      "url": "https://doee.dc.gov/energyassistance",
+      "desc": "LIHEAP (Low Income Home Energy Assistance Program) and the Utility Discount Program may reduce energy costs for qualifying DC households.",
+      "why": "Useful while a household is waiting for repairs or needs help keeping utility service affordable.",
+      "prep": [
+        "Photo ID and household documents",
+        "Current income information",
+        "Recent utility bills and proof of address"
+      ],
+      "status": "As of September 14, 2026, applications are closed until the new fiscal year begins October 1, 2026.",
+      "time": true,
+      "next": "Check the official page again when the new application cycle opens.",
+      "button": "Check energy-assistance dates",
+      "id": "energyBill",
+      "lastReviewed": null
+    },
+    "solar": {
+      "name": "Solar for All",
+      "org": "DC Department of Energy and Environment / DCSEU",
+      "badge": "Official government website",
+      "tags": [
+        "green",
+        "energy"
+      ],
+      "url": "https://solarforall.doee.dc.gov/",
+      "desc": "May provide rooftop solar for qualifying households or Community Solar savings without panels on the home.",
+      "why": "Community Solar can be useful when a roof is shaded, unsuitable, rented, or unavailable for an installation.",
+      "prep": [
+        "Current income information",
+        "DC address and Pepco account",
+        "Ownership, roof, and electrical information for rooftop projects"
+      ],
+      "status": "FY2026 single-family rooftop funding is limited. An application does not guarantee funding. Recheck after the September 30 fiscal-year change.",
+      "time": true,
+      "next": "Compare the rooftop and Community Solar routes before choosing one.",
+      "button": "Check Solar for All funding",
+      "id": "solar",
+      "lastReviewed": null
+    },
+    "riversmart": {
+      "name": "RiverSmart Homes",
+      "org": "DC Department of Energy and Environment",
+      "badge": "Official government website",
+      "tags": [
+        "green"
+      ],
+      "url": "https://doee.dc.gov/node/850262",
+      "desc": "Offers a free stormwater audit and several yard improvements that reduce runoff.",
+      "why": "May include rain barrels, rain gardens, native landscaping, permeable surfaces, and free shade trees.",
+      "prep": [
+        "DC property address",
+        "Owner permission when the applicant rents",
+        "Access for the stormwater audit"
+      ],
+      "status": "Not every improvement is free. Some require a copay or reimbursement, and some are limited by location and site conditions.",
+      "next": "Begin with the free property audit to learn which options fit the site.",
+      "button": "Request a RiverSmart audit",
+      "id": "riversmart",
+      "lastReviewed": null
+    },
+    "casey": {
+      "name": "Free trees and tree rebates",
+      "org": "Casey Trees",
+      "badge": "Official nonprofit website",
+      "tags": [
+        "green"
+      ],
+      "url": "https://caseytrees.org/free-trees/",
+      "desc": "Provides free tree planting at suitable DC properties and a separate rebate for qualifying tree purchases.",
+      "why": "A tree may provide shade, reduce runoff, cool the property, and improve the yard without the full planting cost.",
+      "prep": [
+        "DC property address",
+        "Owner permission",
+        "A suitable planting location and agreement to care for the tree"
+      ],
+      "status": "Tree type, number, and placement depend on the property. Rebate purchases must follow current species and receipt rules.",
+      "next": "Request a site review before choosing the tree or planting location.",
+      "button": "Request free trees",
+      "id": "casey",
+      "lastReviewed": null
+    },
+    "safeHome": {
+      "name": "Safe at Home",
+      "org": "DC Department of Aging and Community Living",
+      "badge": "Official government website",
+      "tags": [
+        "access",
+        "support"
+      ],
+      "url": "https://dacl.dc.gov/service/safe-home",
+      "desc": "Provides preventive home adaptations for eligible older adults and adults with disabilities.",
+      "why": "May help with grab bars, handrails, bathtub cuts, shower seats, stair lifts, and other changes that reduce falls.",
+      "prep": [
+        "Proof of DC residence",
+        "Proof of age or disability",
+        "Household income and ownership or rental information"
+      ],
+      "status": "Current published eligibility covers residents age 60+ or adults age 18+ with disabilities.",
+      "next": "Check Safe at Home before paying for accessibility work yourself.",
+      "button": "Review Safe at Home",
+      "id": "safeHome",
+      "lastReviewed": null
+    },
+    "eaas": {
+      "name": "Environmental Accessibility Adaptation Services",
+      "org": "DC Medicaid / Front Door DC",
+      "badge": "Official government website",
+      "tags": [
+        "access",
+        "support"
+      ],
+      "url": "https://www.frontdoor.dc.gov/eaas",
+      "desc": "A Medicaid long-term-services pathway that may authorize home accessibility adaptations in an eligible adult’s care plan.",
+      "why": "May help an adult who needs safety changes such as rails, shower equipment, or a lift as part of approved Medicaid services.",
+      "prep": [
+        "Current Medicaid information",
+        "Clinical and functional assessment",
+        "Care plan and information about the home"
+      ],
+      "status": "The public explainer contains older financial figures. Confirm current rules with the Medicaid care manager before relying on exact limits.",
+      "next": "Ask the person’s Medicaid care manager whether home adaptations can be assessed.",
+      "button": "Review the Medicaid pathway",
+      "id": "eaas",
+      "lastReviewed": null
+    },
+    "leadPipe": {
+      "name": "Lead Pipe Replacement Assistance",
+      "org": "DC Department of Energy and Environment / DC Water",
+      "badge": "Official government website",
+      "tags": [
+        "safety"
+      ],
+      "url": "https://doee.dc.gov/node/1451331",
+      "desc": "May cover approved replacement of a qualifying private-side lead, galvanized, or brass water-service line.",
+      "why": "The DC Water service-line map can show whether the property may fit the assistance route.",
+      "prep": [
+        "Recent DC Water bill",
+        "Owner photo identification",
+        "Proof of ownership and the service-line map result"
+      ],
+      "status": "This is not reimbursement. Do not hire a contractor or pay a deposit before written approval, and use an approved contractor.",
+      "next": "Check the service-line map, then follow the assistance-program approval steps.",
+      "button": "Check my service line",
+      "id": "leadPipe",
+      "lastReviewed": null
+    },
+    "leadReduction": {
+      "name": "Lead Reduction Program",
+      "org": "DC Department of Energy and Environment",
+      "badge": "Official government website",
+      "tags": [
+        "safety"
+      ],
+      "url": "https://doee.dc.gov/node/1505091",
+      "desc": "May identify and reduce lead-paint hazards in qualifying pre-1978 homes connected to a young child.",
+      "why": "Designed for eligible homes where a child under 6 lives or visits frequently and lead hazards may be present.",
+      "prep": [
+        "Child’s birth certificate and household documents",
+        "Income, asset, ownership, and insurance records",
+        "Any existing lead inspection or hazard reports"
+      ],
+      "status": "FY2026 openings are delayed. The agency page includes mixed old and new instructions, so use only the current forms and status.",
+      "time": true,
+      "next": "Check the live status before gathering the full application package.",
+      "button": "Check lead-program status",
+      "id": "leadReduction",
+      "lastReviewed": null
+    },
+    "healthyHomes": {
+      "name": "Healthy Homes",
+      "org": "DOEE / Front Door DC",
+      "badge": "Official government website",
+      "tags": [
+        "safety",
+        "support"
+      ],
+      "url": "https://www.frontdoor.dc.gov/healthy-homes",
+      "desc": "Provides home assessment, education, and referrals for certain asthma and indoor environmental concerns.",
+      "why": "May help a household understand triggers such as pests, moisture, smoke, or dust when a child has asthma or a pregnant person lives in the home.",
+      "prep": [
+        "DC address and household contact information",
+        "The health concern and who is affected",
+        "Permission to assess the home and any useful medical or inspection information"
+      ],
+      "status": "This is mainly assessment and referral, not a promise that every repair will be paid for. Confirm that intake is currently active.",
+      "next": "Check current intake before depending on this as a repair program.",
+      "button": "Review Healthy Homes",
+      "id": "healthyHomes",
+      "lastReviewed": null
+    },
+    "floodsmart": {
+      "name": "FloodSmart Homes",
+      "org": "DOEE / Front Door DC",
+      "badge": "Official government website",
+      "tags": [
+        "safety"
+      ],
+      "url": "https://www.frontdoor.dc.gov/floodsmart-homes",
+      "desc": "May provide a flood-resilience assessment, report, counseling, and an elevation certificate.",
+      "why": "Useful for owners in mapped flood areas or homes with documented flooding concerns.",
+      "prep": [
+        "Property address and ownership information",
+        "Past flooding records or photographs, if available",
+        "Access for the property assessment"
+      ],
+      "status": "The assessment does not mean construction work is automatically funded. Confirm current intake and later improvement assistance separately.",
+      "next": "Start with the risk assessment before choosing flood work or insurance changes.",
+      "button": "Check flood-risk assistance",
+      "id": "floodsmart",
+      "lastReviewed": null
+    },
+    "radon": {
+      "name": "Free Radon Test Kit",
+      "org": "DC Department of Energy and Environment",
+      "badge": "Official government website",
+      "tags": [
+        "safety"
+      ],
+      "url": "https://doee.dc.gov/node/9482",
+      "desc": "Provides DC residents with a test kit for an invisible radioactive gas linked to lung cancer.",
+      "why": "Testing is the only way to know whether radon may be elevated inside the home.",
+      "prep": [
+        "A DC residential address",
+        "A suitable indoor testing location",
+        "Time to follow the kit instructions correctly"
+      ],
+      "status": "The test is free. Any needed mitigation work is a separate service or cost.",
+      "next": "Order the kit and follow the placement and return instructions.",
+      "button": "Order a radon test",
+      "id": "radon",
+      "lastReviewed": null
+    },
+    "smoke": {
+      "name": "Free Smoke Alarm Service",
+      "org": "DC Fire and Emergency Medical Services (FEMS)",
+      "badge": "Official government website",
+      "tags": [
+        "safety"
+      ],
+      "url": "https://fems.dc.gov/service/free-smoke-alarms",
+      "desc": "Provides a current official starting point for residents who need a working smoke alarm.",
+      "why": "A missing or broken alarm is an immediate home-safety issue.",
+      "prep": [
+        "DC residential address",
+        "Access to the home",
+        "Information about where alarms are missing or not working"
+      ],
+      "status": "Use the current FEMS service page because the request process may change.",
+      "next": "Open the official service page and follow its current request instructions.",
+      "button": "Request a smoke alarm",
+      "id": "smoke",
+      "lastReviewed": null
+    },
+    "ddsCoord": {
+      "name": "Disability and family service coordination",
+      "org": "DC disability and health-service pathways",
+      "badge": "Official government website",
+      "tags": [
+        "support",
+        "access"
+      ],
+      "url": "https://dds.dc.gov/",
+      "desc": "A service coordinator or health-plan care manager can connect medical, school, benefits, transportation, and community supports.",
+      "why": "Useful when a family knows something is needed but does not know which housing, disability, health, or developmental program should start the process.",
+      "prep": [
+        "Age and DC residency",
+        "Diagnosis, evaluation, or functional records",
+        "Medicaid, school, or provider information when applicable"
+      ],
+      "status": "Service coordination does not automatically pay for construction. Home modifications must still meet the separate funding program’s rules.",
+      "next": "For a young child, check Strong Start. For Medicaid members, ask the health plan. Adults with developmental disabilities can check DDS.",
+      "button": "Find disability services",
+      "id": "ddsCoord",
+      "lastReviewed": null
+    }
+  },
+  "educationCards": {
+    "beforeApply": {
+      "title": "Before applying for a rental",
+      "bullets": [
+        "Ask for the written screening criteria before paying an application fee.",
+        "Confirm rent, deposit, utilities, move-in costs, and any refundable or nonrefundable fees.",
+        "Prepare identification, income documentation, rental history, and references that the property says it requires.",
+        "Never upload sensitive documents to this hub; complete applications only on a verified property or program website."
+      ],
+      "next": "Write down the total move-in cost and required documents before you apply."
+    },
+    "pet": {
+      "title": "Renting with a pet",
+      "bullets": [
+        "Ask about limits on animal type, number, size, or breed.",
+        "Ask which charges are refundable, nonrefundable, or monthly.",
+        "Confirm vaccination, registration, or documentation requirements.",
+        "Assistance animals are not pets; different fair-housing rules may apply."
+      ],
+      "next": "Get the full pet policy and all animal-related charges in writing before applying."
+    },
+    "insurance": {
+      "title": "Renters insurance",
+      "bullets": [
+        "A landlord’s policy may not cover a renter’s belongings.",
+        "Compare personal-property, liability, temporary-living, and deductible terms.",
+        "Ask what losses or hazards are excluded.",
+        "Confirm whether the lease requires coverage and a minimum amount."
+      ],
+      "next": "Compare coverage and exclusions, not only the monthly price."
+    },
+    "guidance": {
+      "title": "Choosing human guidance",
+      "bullets": [
+        "Housing counselors provide education in defined subject areas.",
+        "Program navigators may help only within a particular program or referral.",
+        "Locators, leasing professionals, and real-estate professionals may focus on market-rate rentals.",
+        "Ask whether the service is free, eligibility-based, referral-only, or fee-based."
+      ],
+      "next": "Choose the type of help that matches your task, then review that provider’s services and terms."
+    },
+    "cbo": {
+      "title": "Starting with a homeownership CBO",
+      "bullets": [
+        "Many DC homebuyer programs direct applicants to participating community-based organizations.",
+        "A CBO may provide orientation, education, counseling, or program application guidance.",
+        "Participation does not guarantee program eligibility or mortgage approval.",
+        "Intake steps and appointment availability vary by organization."
+      ],
+      "next": "Open the DHCD CBO directory, choose one participating organization, and follow its official orientation or intake instructions."
+    },
+    "animals": {
+      "title": "Assistance animals and reasonable accommodations",
+      "bullets": [
+        "An assistance animal is not the same as a pet.",
+        "A housing provider may have a process for requesting a reasonable accommodation.",
+        "Do not pay unofficial websites for certificates or registrations without checking official fair-housing guidance.",
+        "Individual rights and documentation questions may require qualified legal guidance."
+      ],
+      "next": "Review official housing-rights information before submitting an accommodation request."
+    },
+    "unsafe": {
+      "title": "Unsafe housing conditions",
+      "bullets": [
+        "Describe the problem to the housing provider in writing and keep a copy.",
+        "Save dated photos, messages, notices, and repair requests when safe to do so.",
+        "Review DC housing-code standards and the inspection process.",
+        "Seek qualified legal help if there is an eviction notice, court case, retaliation concern, or urgent legal issue."
+      ],
+      "next": "Create a dated record of the condition and open the official DOB inspection steps."
+    },
+    "repair": {
+      "title": "Home-repair planning",
+      "bullets": [
+        "Confirm whether a contractor and the work require District licenses or permits.",
+        "Get the scope, price, payment schedule, and warranty in writing.",
+        "Do not pay the full price before work begins without understanding the risk.",
+        "Check assistance-program eligibility before signing a contract if you may need financial help."
+      ],
+      "next": "Compare written estimates and verify required licenses or permits before agreeing to work."
+    }
+  },
+  "rentalSteps_PROPOSED": [
+    {
+      "q": "What kind of rental help are you looking for?",
+      "hint": "Choose all that fit.",
+      "next": "Choose situation details",
+      "back": "Back to the paths",
+      "choices": [
+        {
+          "id": "search",
+          "t": "I want to search for a place to rent",
+          "s": "I want a starting point for finding apartments, houses, condos, rooms, or other rental listings.",
+          "res": [
+            "dchousingsearch"
+          ],
+          "why": "A starting point for looking at DC rental listings on your own."
+        },
+        {
+          "id": "affordable",
+          "t": "I’m looking for affordable or income-restricted housing",
+          "s": "I want to explore rental options or programs that may have income, application, or other requirements.",
+          "res": [
+            "dchousingsearch",
+            "rentalAssist"
+          ],
+          "why": "Can point you toward income-restricted listings and official rental-assistance starting points."
+        },
+        {
+          "id": "accessible",
+          "t": "I need an accessible rental",
+          "s": "I want to look for housing with accessibility features or learn about disability-related housing resources.",
+          "res": [
+            "dchousingsearch",
+            "dccil",
+            "ddsBlind"
+          ],
+          "why": "Can help you look for accessibility features or disability-related housing resources."
+        },
+        {
+          "id": "guidance",
+          "t": "I want guidance from a person",
+          "s": "Explore housing counseling, program navigation, housing-locator, and licensed real-estate options. Services, eligibility, and fees vary.",
+          "res": [
+            "dhcdCounseling",
+            "hud"
+          ],
+          "edu": [
+            "guidance"
+          ],
+          "why": "Can help you compare kinds of one-on-one help before you contact anyone.",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "q": "Is there anything about your situation we should consider?",
+      "hint": "Choose all that fit, or choose “None of these.” We won’t ask for details.",
+      "next": "Choose what would help most",
+      "back": "Back to rental choices",
+      "choices": [
+        {
+          "id": "pet",
+          "t": "I have a pet",
+          "res": [
+            "hraPet"
+          ],
+          "edu": [
+            "pet"
+          ],
+          "why": "Useful when you are looking for a rental that allows pets."
+        },
+        {
+          "id": "animal",
+          "t": "I have an assistance animal",
+          "res": [
+            "hraAnimal"
+          ],
+          "edu": [
+            "animals"
+          ],
+          "why": "Points to general housing information about assistance animals."
+        },
+        {
+          "id": "rentHelp",
+          "t": "I need help paying rent or move-in costs",
+          "res": [
+            "erap",
+            "rentalAssist"
+          ],
+          "why": "An official place to check current rental-assistance options and status."
+        },
+        {
+          "id": "unstable",
+          "t": "I don’t have a stable place to stay",
+          "res": [
+            "dhsHousing"
+          ],
+          "why": "An official starting point when you do not have a stable place to stay.",
+          "urgent": true
+        },
+        {
+          "id": "safety",
+          "t": "Safety at home is a concern for me",
+          "res": [
+            "dash"
+          ],
+          "why": "A starting point for safe-housing options. You do not need to share details to view it.",
+          "urgent": true
+        },
+        {
+          "id": "older",
+          "t": "I’m an older adult",
+          "res": [
+            "daclCase"
+          ],
+          "why": "May connect older adults with referrals and follow-up support, based on eligibility."
+        },
+        {
+          "id": "veteran",
+          "t": "I’m a veteran or from a military family",
+          "res": [
+            "veterans"
+          ],
+          "why": "Lists District resources for veterans and military families."
+        },
+        {
+          "id": "none2",
+          "t": "None of these",
+          "res": [],
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "q": "What would help most right now?",
+      "hint": "Choose all that fit. These selections only organize your starting points.",
+      "next": "Show my starting points",
+      "back": "Back to situation details",
+      "choices": [
+        {
+          "id": "prepare",
+          "t": "Know what to prepare before applying",
+          "res": [],
+          "edu": [
+            "beforeApply"
+          ]
+        },
+        {
+          "id": "costs",
+          "t": "Understand rental costs and renters insurance",
+          "res": [
+            "disbRenters"
+          ],
+          "edu": [
+            "insurance"
+          ],
+          "why": "Helps you compare renters-insurance coverage before you sign a lease."
+        },
+        {
+          "id": "rights",
+          "t": "Understand my rights as a renter",
+          "res": [
+            "ota",
+            "oag"
+          ],
+          "why": "Official information about renter rights and where to get help."
+        },
+        {
+          "id": "start",
+          "t": "Just show me where to start",
+          "res": []
+        }
+      ]
+    }
+  ],
+  "homeownerChoices": [
+    {
+      "id": "repair",
+      "t": "Repair or improve my home",
+      "s": "Roof, heating, cooling, drafts, windows, or major repairs"
+    },
+    {
+      "id": "access",
+      "t": "Make my home easier and safer to use",
+      "s": "Ramps, railings, safer bathrooms, stairs, or mobility changes"
+    },
+    {
+      "id": "energy",
+      "t": "Lower energy or utility costs",
+      "s": "Insulation, efficient equipment, rebates, or bill assistance"
+    },
+    {
+      "id": "green",
+      "t": "Get solar or environmental improvements",
+      "s": "Solar savings, rainwater, drainage, trees, or greener yards"
+    },
+    {
+      "id": "safety",
+      "t": "Protect my household from hazards",
+      "s": "Lead, asthma triggers, flooding, radon, or fire safety"
+    },
+    {
+      "id": "support",
+      "t": "Find a caseworker or service coordinator",
+      "s": "Disability, aging, medical, school, or community supports"
+    }
+  ]
+}
